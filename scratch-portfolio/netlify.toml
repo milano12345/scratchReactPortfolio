@@ -4,9 +4,9 @@ ID = "503d045f-0c48-464c-a25e-be89d27fc677"
 
 [build]
   # This is the directory to change to before starting a build.
-  base    = "my-app/"
+  base    = "scratch-portfolio/"
   # NOTE: This is where we will look for package.json/.nvmrc/etc, not root.
   # This is the directory that you are publishing from (relative to root of your repo)
-  publish = "my-app/build/"
+  publish = "scratch-portfolio/build/"
   # This will be your default build command
   command = "yarn build"
