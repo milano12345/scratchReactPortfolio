@@ -159,6 +159,10 @@ p {
 }
 
 footer {
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
   width: 100%;
   height: 2.5rem;
   color: black;
