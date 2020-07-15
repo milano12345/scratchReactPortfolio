@@ -1,0 +1,38 @@
+[
+  {
+    "cardtitle": "Bakery Website",
+    "img": "/images/01.jpg",
+    "cardtext": "I created this site using advanced HTML/CSS techniques. ",
+    "buttonlink": "https://codepen.io/Fall3n/pen/eXwNOO"
+  },
+  {
+    "cardtitle": "Responsive Web Design",
+    "img": "/images/img6.png",
+    "cardtext": "Integrating responsive web design using media queries at varying width's.",
+    "buttonlink": "https://github.com/milano12345/responsive-web-design-I"
+  },
+  {
+    "cardtitle": "Flex-Box CSS",
+    "img": "/images/img7.png",
+    "cardtext": "Built using flex-box",
+    "buttonlink": "https://github.com/milano12345/Sprint-Challenge--Advanced-CSS/tree/daniel-milano"
+  },
+  {
+    "cardtitle": "User Interface Design",
+    "img": "/images/img8.png",
+    "cardtext": "Building user interface's is becoming second nature",
+    "buttonlink": "https://github.com/milano12345/Sprint-Challenge--User-Interface"
+  },
+  {
+    "cardtitle": "Bakery Website",
+    "img": "/images/img6.png",
+    "cardtext": "This was made using HTML/CSS.",
+    "buttonlink": "https://codepen.io/Fall3n/pen/eXwNOO"
+  },
+  {
+    "cardtitle": "Bakery Website",
+    "img": "/images/img6.png",
+    "cardtext": "This was made using HTML/CSS.",
+    "buttonlink": "https://codepen.io/Fall3n/pen/eXwNOO"
+  }
+]
