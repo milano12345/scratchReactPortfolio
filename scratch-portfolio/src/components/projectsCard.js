@@ -1,15 +1,16 @@
 import React from "react";
-
-const Footer = () => {
+const Card = (props) => {
+  console.log(props);
   return (
-    <footer>
-      <nav>
-        <a href="/">Home</a>
-        <a href="/aboutme">About Me</a>
-        <a href="/projects">Projects</a>
-      </nav>
-    </footer>
+    <div className="card">
+      <div className="title">{props.data.cardtitle}</div>
+      <img className="project" src={props.data.img} alt={"project"}></img>
+      <div className="cardtext"> {props.data.cardtext}</div>
+      <button>
+        <a href={props.data.buttonlink}>Link to Code</a>
+      </button>
+    </div>
   );
 };
 
-export default Footer;
+export default Card;
