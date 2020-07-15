@@ -21,7 +21,7 @@ class Projects extends Component {
     if (this.state.activeTab === "0") {
       return (
         <div className="title">
-          <h1>"Welcome to my HTML/CSS projects"</h1>
+          <h1>"Welcome To My HTML/CSS Projects"</h1>
           <div className="demo-grid-1">
             {text.map((data, i) => {
               return <Card key={i} data={data} />;
@@ -32,7 +32,7 @@ class Projects extends Component {
     } else if (this.state.activeTab === "1") {
       return (
         <div className="title">
-          <h1>"Welcome to My React Projects"</h1>
+          <h1>"Welcome To My React Projects"</h1>
           <div className="demo-grid-1">
             {text.map((data, i) => {
               return <Card key={i} data={data} />;
@@ -43,7 +43,7 @@ class Projects extends Component {
     } else if (this.state.activeTab === "2") {
       return (
         <div className="title">
-          <h1>"Welcome to my Node Projects"</h1>
+          <h1>"Welcome To My Node Projects"</h1>
           <div className="demo-grid-1">
             {text.map((data, i) => {
               return <Card key={i} data={data} />;
