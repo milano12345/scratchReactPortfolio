@@ -270,9 +270,9 @@ const AboutMe = () => {
                     src={project.imgSrc}
                     alt="Day Project"
                   />
-                  <h6>
+                  <h3>
                     <a href={project.link}>{project.title}</a>
-                  </h6>
+                  </h3>
                 </div>
               );
             })}
