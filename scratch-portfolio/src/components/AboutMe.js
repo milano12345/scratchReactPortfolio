@@ -24,7 +24,7 @@ const AboutMe = () => {
               alt="Daniel Milano"
             />
             <img
-              style={{ width: "32%" }}
+              // style={{ width: "32%" }}
               className="aboutMeImage"
               src="https://danielmilano.tech/images/lion.jpg"
               alt="Daniel Milano"
@@ -100,3 +100,5 @@ const AboutMe = () => {
   );
 };
 export default AboutMe;
+
+// test

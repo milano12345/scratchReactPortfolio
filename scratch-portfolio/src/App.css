@@ -216,20 +216,25 @@ a {
 }
 
 .wrapper {
-  max-width: 60%;
+  max-width: 70%;
   margin: auto;
 }
 
 article {
   border: 10px solid;
-  box-shadow: 0 50px 20px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  margin: 1rem;
-  width: 75%;
-  display: inline-block;
+  box-shadow: 0 50px 20px 40px rgba(0, 0, 0.1, 0.2),
+    0 40px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 0.5rem;
+  width: 85%;
 }
 
 .cardimg {
   width: 100%;
+}
+
+.images {
+  display: flex;
+  flex-wrap: nowrap;
 }
 
 /* test */
