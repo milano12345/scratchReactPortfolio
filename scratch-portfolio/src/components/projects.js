@@ -1,8 +1,9 @@
 import React, { Component } from "react";
-import Card from "./projectsCard";
-import Footer from "./footer";
-import NavBar from "./navigationBar";
-const text = require("./projects.json");
+import Card from "./ProjectsCard";
+import Footer from "./Footer";
+import NavBar from "./NavigationBar";
+import Pagination from "./Pagination";
+const text = require("./Projects.json");
 const arr = Array.from(text);
 
 class Projects extends Component {
@@ -65,6 +66,7 @@ class Projects extends Component {
           </nav>
           <section className="projects-grid">{this.toggleCategories()}</section>
         </div>
+        <Pagination />
         <Footer />
       </div>
     );
