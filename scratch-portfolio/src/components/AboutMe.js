@@ -6,7 +6,6 @@ const AboutMe = () => {
   return (
     <div className="projects-grid">
       <NavBar />
-      "Welcome to My Page!"
       <div className="wrapper">
         <div className="inner">
           <header>
