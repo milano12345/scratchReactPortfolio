@@ -26,6 +26,7 @@
     #b92b27
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   text-align: center;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
