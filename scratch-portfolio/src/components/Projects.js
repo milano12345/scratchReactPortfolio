@@ -59,11 +59,11 @@ class Projects extends Component {
       <div className="projects-grid">
         <NavBar />
         <div className="category-tabs">
-          <nav onClick={(e) => this.handleChange(e)}>
+          <div onClick={(e) => this.handleChange(e)}>
             <button id="0">HTML/CSS</button>
             <button id="1">React</button>
             <button id="2">Node</button>
-          </nav>
+          </div>
           <section className="projects-grid">{this.toggleCategories()}</section>
         </div>
         <Pagination />
