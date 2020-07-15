@@ -181,8 +181,10 @@ footer {
 .cardtext {
 }
 
-.project {
-  width: 100%;
+#project {
+  width: 100% !important;
+  margin: 0 !important;
+  height: 10rem !important;
 }
 
 .demo-grid-1 {
@@ -190,4 +192,10 @@ footer {
   width: 100%;
   flex-wrap: wrap;
   justify-content: center;
+}
+
+.dayProject {
+  width: 25%;
+  height: 12rem;
+  margin: 2rem;
 }

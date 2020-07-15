@@ -4,7 +4,7 @@ const Card = (props) => {
   return (
     <div className="card">
       <div className="title">{props.data.cardtitle}</div>
-      <img className="project" src={props.data.img} alt={"project"}></img>
+      <img id="project" src={props.data.img} alt={"project"}></img>
       <div className="cardtext"> {props.data.cardtext}</div>
       <button>
         <a href={props.data.buttonlink}>Link to Code</a>
