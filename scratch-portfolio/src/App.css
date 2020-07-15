@@ -52,7 +52,13 @@
 nav {
   display: flex;
   justify-content: space-evenly;
-  background-color: #808080;
+  background: rgb(0, 212, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 212, 255, 1) 5%,
+    rgba(215, 214, 235, 1) 50%,
+    rgba(121, 9, 24, 1) 71%
+  );
   border-bottom-style: dashed;
 }
 
@@ -97,6 +103,7 @@ p {
   height: 11.9rem;
   border-radius: 50%;
   margin-top: 1.5rem;
+  margin-bottom: 2rem;
 }
 
 .avatar-img2 {
@@ -110,6 +117,7 @@ p {
   opacity: 0.7;
   width: 75%;
   margin: auto;
+  margin-bottom: 2rem;
   border-radius: 10px;
   height: auto;
 }
@@ -170,7 +178,13 @@ footer {
   font-family: lobster;
   text-align: center;
   font-size: 1.4rem;
-  background-color: #808080;
+  background: rgb(0, 212, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 212, 255, 1) 5%,
+    rgba(215, 214, 235, 1) 50%,
+    rgba(121, 9, 24, 1) 71%
+  );
 }
 
 /* PROJECTS */

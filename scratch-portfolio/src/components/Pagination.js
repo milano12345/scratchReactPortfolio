@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import NavBar from "./NavigationBar";
 
 const Pagination = () => {
   const [dayProject] = useState([
@@ -250,7 +249,6 @@ const Pagination = () => {
 
   return (
     <div className="projects-grid">
-      <NavBar />
       <div id="projects" className="projects">
         <section className="dayProjects">
           <h3>Daily Projects</h3>
