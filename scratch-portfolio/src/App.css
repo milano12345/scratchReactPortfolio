@@ -104,7 +104,7 @@ p {
   height: 11.9rem;
   border-radius: 50%;
   margin-top: 1.5rem;
-  margin-bottom: 3rem;
+  margin-bottom: 1.5rem;
 }
 
 .avatar-img2 {
@@ -118,7 +118,6 @@ p {
   opacity: 0.7;
   width: 75%;
   margin: auto;
-  margin-bottom: 4rem;
   border-radius: 10px;
   height: auto;
 }

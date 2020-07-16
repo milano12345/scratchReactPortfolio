@@ -20,6 +20,7 @@ const LandingPage = () => {
           HTML/CSS | BOOTSTRAP | JAVASCRIPT | REACT | NODE JS | EXPRESS | JAVA
         </p>
       </div>
+      <h2>ADD ME!</h2>
       <div className="social-links">
         {/* Github */}
         <a href="https://github.com/milano12345">
