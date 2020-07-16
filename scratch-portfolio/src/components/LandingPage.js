@@ -38,8 +38,11 @@ const LandingPage = () => {
             className="icon"
           />
         </a>
+        <a className="btn cta" href={"../danielMilanoResume.pdf"}>
+          Download Resume
+        </a>
+        <Footer />
       </div>
-      <Footer />
     </div>
   );
 };
