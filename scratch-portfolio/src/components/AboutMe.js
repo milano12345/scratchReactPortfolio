@@ -63,7 +63,7 @@ const AboutMe = () => {
               </p>
               <a
                 href="https://www.switchbacktravel.com/day-hikes-near-denver"
-                className="special"
+                className="btn cta"
               >
                 Learn more
               </a>
@@ -86,7 +86,7 @@ const AboutMe = () => {
               </p>
               <a
                 href="https://www.uncovercolorado.com/ski-resorts-near-denver-co/"
-                className="special"
+                className="btn cta"
               >
                 Learn more
               </a>
