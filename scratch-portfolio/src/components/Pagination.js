@@ -248,7 +248,7 @@ const Pagination = () => {
   console.log(pageNumbers);
 
   return (
-    <div className="projects-grid">
+    <div className="projects-grid" style={{ paddingBottom: "3rem" }}>
       <div id="projects" className="projects">
         <section className="dayProjects">
           <h3>Daily Projects</h3>
@@ -275,7 +275,7 @@ const Pagination = () => {
               );
             })}
           </section>
-          <div className="numRow">
+          <div className="numRow" style={{ paddingBottom: "4rem" }}>
             {pageNumbers.map((number) => {
               return (
                 <button onClick={() => setCurrentPage(number)}>{number}</button>
