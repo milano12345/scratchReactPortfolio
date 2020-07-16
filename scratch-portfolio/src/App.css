@@ -218,8 +218,9 @@ footer {
 }
 
 .dayProject {
-  width: 75%;
-  height: auto;
+  width: 70%;
+  height: 11rem;
+  object-fit: scale-down;
   margin: 2rem;
 }
 
