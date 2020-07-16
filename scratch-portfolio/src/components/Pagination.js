@@ -251,7 +251,7 @@ const Pagination = () => {
     <div className="projects-grid" style={{ paddingBottom: "3rem" }}>
       <div id="projects" className="projects">
         <section className="dayProjects">
-          <h2>Daily Projects</h2>
+          <h2 style={{ padding: "3rem" }}>Daily Projects</h2>
           <div className="numRow">
             {pageNumbers.map((number) => {
               return (
